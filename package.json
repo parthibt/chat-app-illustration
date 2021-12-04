@@ -1,0 +1,27 @@
+{
+  "name": "chat-app-illustration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postcss:watch": "postcss src/main.css -o main-sheet.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthibt/chat-app-illustration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parthibt/chat-app-illustration/issues"
+  },
+  "homepage": "https://github.com/parthibt/chat-app-illustration#readme",
+  "devDependencies": {
+    "cssnano": "^5.0.12",
+    "postcss": "^8.4.4",
+    "postcss-cli": "^9.0.2",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^7.0.1"
+  }
+}
