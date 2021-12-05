@@ -22,7 +22,7 @@
     border-radius: 15px 15px 15px 0px;  
 }
 .sound-text{
-    padding: 1.2em;
+    padding: 0.6em 1.2em;
     font-size: 0.8rem;
     color: var(--chat-left);
 }
@@ -31,14 +31,14 @@
     border-radius: 15px 15px 15px 0px; 
 }
 .could-text{
-    padding: 1em;
+    padding: 0.6em 1em;
     font-size: 0.8rem;
     color: var(--chat-left);
 }
 
 /*text-right*/
 .pictures{
-    margin-top: 10px;
+    margin-top: 5px;
     float: right;
     max-width: 200px;
     display: block;
@@ -47,7 +47,7 @@
     border-radius: 15px 15px 0px 15px; 
 }
 .pictur-text{
-    padding: 0.4em 1em;
+    padding: 0em 1em;
     font-size: 0.8rem;
     color: var(--chat-right);
 }
@@ -57,10 +57,10 @@
     background: var(--white);
     box-shadow: rgba(0, 0, 0, 0.082) 0px 10px 20px, rgba(0, 0, 0, 0.096) 0px 6px 6px;
     border-radius: 15px 15px 0px 15px;
-    margin-top: 10px; 
+    margin-top: 5px; 
 }
 .make-text{
-    padding: 0.5em 1em;
+    padding: 0em 1em;
     font-size: 0.8rem;
     color: var(--chat-right);
     
@@ -95,7 +95,6 @@
     overflow: hidden;
 }
 .minutes{
-    padding: 0.3em;
     margin-left: 40px;
 }
 .round{
@@ -152,4 +151,29 @@ h1{
 }
 .simple-text{
     color: var(--para);
+}
+
+@media screen and (min-width: 648px){
+    .container{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 0em 5em;
+    }
+    .simple{
+        max-width: 400px;
+        text-align: justify;
+        display: block;
+        margin: auto;
+    }
+    
+    .phone{
+        margin: auto;
+    }
+    .gradient{
+        width: 18%;
+        border-bottom-right-radius: 80% 25%;
+        border-bottom-left-radius: 50% 9%;
+    }
+    
 }

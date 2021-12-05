@@ -8,10 +8,11 @@
     z-index: 999;
     margin-top: 60px;
     margin-left: 30px;
-    background: var(--app-bakcground);
+    
 }
 .phone-top{
     margin:1em;
+    background: var(--app-bakcground);
 }
 .gradient{
     width: 50%;
@@ -37,8 +38,8 @@
     background: var(--white);
     border-radius: 0px 0px 20px 20px;
     position: absolute;
-    top: 70px;
-    left: 125px;
+    margin-top: -80px;
+    margin-left: 80px;
 }
 .first{
     padding: 1.8em 0.8em 0.5em 0.8em;
@@ -56,20 +57,20 @@
     height: 13px;
     background: var(--white);
     position: absolute;
-    top: 125px;
-    left: 76px;
     border-radius: 20px 20px 0px 0px;
     transform: rotate(40deg);
+    margin-top: -12px;
+    margin-left: 10px;
 }
 .point-2{
     width: 4px;
     height: 13px;
     background: var(--white);
     position: absolute;
-    top: 134px;
-    left: 76px;
     border-radius: 20px 20px 0px 0px;
     transform: rotate(140deg);
+    margin-top: -3px;
+    margin-left: 10px;
 }
 
 /*vertical dots*/
