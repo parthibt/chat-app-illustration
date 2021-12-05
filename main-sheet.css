@@ -24,7 +24,7 @@ p{
     font-family: 'Rubik', sans-serif;
 }
 .phone{
-    max-width: 330px;
+    max-width: 350px;
     background: var(--white);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 0 auto;
@@ -320,7 +320,7 @@ h1{
 .simple-text{
     color: var(--para);
 }
-@media screen and (min-width: 648px){
+@media screen and (min-width: 640px){
     .container{
         display: flex;
         justify-content: center;
@@ -328,19 +328,31 @@ h1{
         padding: 0em 5em;
     }
     .simple{
-        max-width: 400px;
-        text-align: justify;
         display: block;
         margin: auto;
+        padding-left: 8em;
+        width: 70%;
+        text-align: justify;
+
     }
-    
     .phone{
-        margin: auto;
+        margin-left: -80px;
+        margin-top: 0;
     }
     .gradient{
         width: 18%;
         border-bottom-right-radius: 80% 25%;
         border-bottom-left-radius: 50% 9%;
+    }
+    
+}
+@media screen and (min-width: 944px){
+    .simple{
+        max-width: 400px;
+        padding-left: 0;
+    }
+    .phone{
+        margin: auto;
     }
     
 }
