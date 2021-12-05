@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
 :root{
     --sub-heading: hsl(276, 100%, 81%);
     --chat-left: hsl(276, 55%, 52%);
@@ -9,26 +10,19 @@
     --gradient2: hsl(264, 100%, 61%);
     --white: hsl(0, 0%, 100%);
     --app-bakcground: hsl(270, 20%, 96%);
-    --btn: hsl(271, 36%, 24%);
+    --btn: hsla(271, 36%, 24%, 0.842);
     --ratio-btn: hsl(289, 100%, 72%);
 }
-
-
 *,*::before,*::after{
     box-sizing: border-box;
 }
-
-
 html{
     font-family: 'Rubik', sans-serif;
 }
-
-
 p{
     font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
 }
-
-
 .phone{
     max-width: 330px;
     background: var(--white);
@@ -39,14 +33,11 @@ p{
     z-index: 999;
     margin-top: 60px;
     margin-left: 30px;
+    background: var(--app-bakcground);
 }
-
-
 .phone-top{
     margin:1em;
 }
-
-
 .gradient{
     width: 50%;
     background: linear-gradient(235deg,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
@@ -58,8 +49,6 @@ p{
     border-bottom-right-radius: 100% 30%;
     border-bottom-left-radius: 0% 4%;
 }
-
-
 .header{
     background: linear-gradient(235deg,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
     display: flex;
@@ -67,8 +56,6 @@ p{
     align-items: center;
     border-radius: 25px 25px 8px 8px;
 }
-
-
 .head{
     width: 150px;
     height: 30px;
@@ -78,8 +65,6 @@ p{
     top: 70px;
     left: 125px;
 }
-
-
 .first{
     padding: 1.8em 0.8em 0.5em 0.8em;
     display: flex;
@@ -88,13 +73,9 @@ p{
     align-self: center;
     line-height: 0.5;
 }
-
-
 .points{
     width: 30px;
 }
-
-
 .point-1{
     width: 4px;
     height: 13px;
@@ -105,8 +86,6 @@ p{
     border-radius: 20px 20px 0px 0px;
     transform: rotate(40deg);
 }
-
-
 .point-2{
     width: 4px;
     height: 13px;
@@ -117,24 +96,16 @@ p{
     border-radius: 20px 20px 0px 0px;
     transform: rotate(140deg);
 }
-
-
 /*vertical dots*/
-
-
 .second{
     width: 40px;
     aspect-ratio: 1;
     margin: 1em;
     display: block;
 }
-
-
 .dots{
     margin: 25px;
 }
-
-
 [class^="dot-"]{
     width: 5px;
     height: 5px;
@@ -143,32 +114,210 @@ p{
     display: block;
     margin-bottom: 1px;
 }
-
-
 .img img{
     width: 36px;
     border-radius: 50%;
     border: 2px solid var(--white);
     margin-right: 10px;
 }
-
-
 .dogs img{
     width: 60px;
     border-radius: 10px;
     float: right;
     margin-left: 10px;
 }
-
-
+.search{
+    float: left;
+    width: 100%;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.089) 0px 10px 20px, rgba(0, 0, 0, 0.089) 0px 6px 6px;
+    border-radius: 20px;
+    
+}
+input{
+    margin: 5px 10px;
+    padding: 0.5em 1.5em;
+    border: none;
+    outline: none;
+    color: var(--chat-right);
+    font-family: inherit;
+    font-size: 1rem;
+}
+.btn{
+    max-width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: var(--main-heading);
+    margin-top: -38px;
+    margin-left: 250px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: var(--btn);
+}
+.btn-1{
+    width: 4px;
+    height: 12px;
+    background: var(--white);
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 5px;
+    transform: rotate(-40deg);
+    border-radius: 10px 10px 0px 0px;
+}
+.btn-2{
+    width: 4px;
+    height: 12px;
+    background: var(--white);
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 12px;
+    transform: rotate(40deg);
+    border-radius: 10px 10px 0px 0px;
+}
+/*header texts*/
 .avatar-name .big{
     color: var(--white);
-    font-weight: 700;
+    font-weight: 500;
     font-family: inherit;
 }
-
-
 .avatar-name .small{
     font-size: 0.8rem;
     color: var(--sub-heading);
+}
+/*sms*/
+/*text lefts*/
+.text-left1{
+    max-width: 200px;
+     
+}
+.sound{
+    background: hsla(289, 100%, 72%, 0.212);
+    border-radius: 15px 15px 15px 0px;  
+}
+.sound-text{
+    padding: 1.2em;
+    font-size: 0.8rem;
+    color: var(--chat-left);
+}
+.could{
+    background: hsla(289, 100%, 72%, 0.212);
+    border-radius: 15px 15px 15px 0px; 
+}
+.could-text{
+    padding: 1em;
+    font-size: 0.8rem;
+    color: var(--chat-left);
+}
+/*text-right*/
+.pictures{
+    margin-top: 10px;
+    float: right;
+    max-width: 200px;
+    display: block;
+    background: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.082) 0px 10px 20px, rgba(0, 0, 0, 0.096) 0px 6px 6px;
+    border-radius: 15px 15px 0px 15px; 
+}
+.pictur-text{
+    padding: 0.4em 1em;
+    font-size: 0.8rem;
+    color: var(--chat-right);
+}
+.make{
+    float: right;
+    display: block;
+    background: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.082) 0px 10px 20px, rgba(0, 0, 0, 0.096) 0px 6px 6px;
+    border-radius: 15px 15px 0px 15px;
+    margin-top: 10px; 
+}
+.make-text{
+    padding: 0.5em 1em;
+    font-size: 0.8rem;
+    color: var(--chat-right);
+    
+}
+/*text left 2*/
+.text-left2{
+    display: block;
+    float: left;
+    max-width: 250px;
+}
+.looks{
+    background: hsla(289, 100%, 72%, 0.212);
+    border-radius: 15px 15px 15px 0px; 
+}
+.looks-text{
+    font-size: 0.8rem;
+    padding: 1em;
+    color: var(--chat-left);
+    overflow: hidden;
+}
+/*text gradient background*/
+.linear-1{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(100deg,var(--gradient1),var(--gradient2));
+    border-radius: 15px 15px 15px 8px; 
+    overflow: hidden;
+}
+.minutes{
+    padding: 0.3em;
+    margin-left: 40px;
+}
+.round{
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid var(--ratio-btn);
+
+}
+.round-1{
+    margin-top: 10px;
+    margin-left: -34px;
+}
+.mint{
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 0.9rem;
+}
+.price{
+    margin-top: 18px;
+    margin-right: 10px;
+    font-weight: 700;
+    color: var(--white);
+}
+/*text-linear gradient*/
+.linear-2{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(100deg,var(--gradient1),var(--gradient2));
+    border-radius: 15px 15px 15px 8px; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.hour{
+    margin-left: 45px;
+}
+.round-2{
+    margin-top: 10px;
+    margin-left: -30px;
+}
+/*Big texts*/
+.simple{
+    text-align: center;
+    padding: 1em;
+    line-height: 1.6;
+}
+h1{
+    color: var(--main-heading);
+}
+.simple-text{
+    color: var(--para);
 }

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
 :root{
     --sub-heading: hsl(276, 100%, 81%);
     --chat-left: hsl(276, 55%, 52%);
@@ -9,10 +10,10 @@
     --gradient2: hsl(264, 100%, 61%);
     --white: hsl(0, 0%, 100%);
     --app-bakcground: hsl(270, 20%, 96%);
-    --btn: hsl(271, 36%, 24%);
+    --btn: hsla(271, 36%, 24%, 0.842);
     --ratio-btn: hsl(289, 100%, 72%);
 }
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
 
 
 *,*::before,*::after{
@@ -24,4 +25,5 @@ html{
 }
 p{
     font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
 }

@@ -1,9 +1,155 @@
+
+/*header texts*/
 .avatar-name .big{
     color: var(--white);
-    font-weight: 700;
+    font-weight: 500;
     font-family: inherit;
 }
 .avatar-name .small{
     font-size: 0.8rem;
     color: var(--sub-heading);
+}
+
+/*sms*/
+
+/*text lefts*/
+.text-left1{
+    max-width: 200px;
+     
+}
+.sound{
+    background: hsla(289, 100%, 72%, 0.212);
+    border-radius: 15px 15px 15px 0px;  
+}
+.sound-text{
+    padding: 1.2em;
+    font-size: 0.8rem;
+    color: var(--chat-left);
+}
+.could{
+    background: hsla(289, 100%, 72%, 0.212);
+    border-radius: 15px 15px 15px 0px; 
+}
+.could-text{
+    padding: 1em;
+    font-size: 0.8rem;
+    color: var(--chat-left);
+}
+
+/*text-right*/
+.pictures{
+    margin-top: 10px;
+    float: right;
+    max-width: 200px;
+    display: block;
+    background: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.082) 0px 10px 20px, rgba(0, 0, 0, 0.096) 0px 6px 6px;
+    border-radius: 15px 15px 0px 15px; 
+}
+.pictur-text{
+    padding: 0.4em 1em;
+    font-size: 0.8rem;
+    color: var(--chat-right);
+}
+.make{
+    float: right;
+    display: block;
+    background: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.082) 0px 10px 20px, rgba(0, 0, 0, 0.096) 0px 6px 6px;
+    border-radius: 15px 15px 0px 15px;
+    margin-top: 10px; 
+}
+.make-text{
+    padding: 0.5em 1em;
+    font-size: 0.8rem;
+    color: var(--chat-right);
+    
+}
+
+
+
+/*text left 2*/
+.text-left2{
+    display: block;
+    float: left;
+    max-width: 250px;
+}
+
+.looks{
+    background: hsla(289, 100%, 72%, 0.212);
+    border-radius: 15px 15px 15px 0px; 
+}
+.looks-text{
+    font-size: 0.8rem;
+    padding: 1em;
+    color: var(--chat-left);
+    overflow: hidden;
+}
+
+/*text gradient background*/
+.linear-1{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(100deg,var(--gradient1),var(--gradient2));
+    border-radius: 15px 15px 15px 8px; 
+    overflow: hidden;
+}
+.minutes{
+    padding: 0.3em;
+    margin-left: 40px;
+}
+.round{
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid var(--ratio-btn);
+
+}
+.round-1{
+    margin-top: 10px;
+    margin-left: -34px;
+}
+.mint{
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 0.9rem;
+}
+.price{
+    margin-top: 18px;
+    margin-right: 10px;
+    font-weight: 700;
+    color: var(--white);
+}
+
+/*text-linear gradient*/
+.linear-2{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(100deg,var(--gradient1),var(--gradient2));
+    border-radius: 15px 15px 15px 8px; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.hour{
+    margin-left: 45px;
+}
+.round-2{
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+/*Big texts*/
+
+.simple{
+    text-align: center;
+    padding: 1em;
+    line-height: 1.6;
+}
+h1{
+    color: var(--main-heading);
+}
+.simple-text{
+    color: var(--para);
 }
