@@ -1,0 +1,9 @@
+.avatar-name .big{
+    color: var(--white);
+    font-weight: 700;
+    font-family: inherit;
+}
+.avatar-name .small{
+    font-size: 0.8rem;
+    color: var(--sub-heading);
+}

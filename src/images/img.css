@@ -1,4 +1,12 @@
-img{
-    width: 100%;
-    
+.img img{
+    width: 36px;
+    border-radius: 50%;
+    border: 2px solid var(--white);
+    margin-right: 10px;
+}
+.dogs img{
+    width: 60px;
+    border-radius: 10px;
+    float: right;
+    margin-left: 10px;
 }
