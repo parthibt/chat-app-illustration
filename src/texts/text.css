@@ -4,6 +4,7 @@
     color: var(--white);
     font-weight: 500;
     font-family: inherit;
+    font-size: 0.8rem;
 }
 .avatar-name .small{
     font-size: 0.8rem;
@@ -176,6 +177,9 @@ h1{
         width: 18%;
         border-bottom-right-radius: 80% 25%;
         border-bottom-left-radius: 50% 9%;
+    }
+    .avatar-name .big{
+        font-size: 1rem;
     }
     
 }
